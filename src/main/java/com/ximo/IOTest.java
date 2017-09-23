@@ -23,9 +23,5 @@ public class IOTest {
         }
     }
 
-    public static void main(String[] args) {
-        IOTest ioTest = new IOTest();
-        ioTest.inputStream();
-    }
 
 }
