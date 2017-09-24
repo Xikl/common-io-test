@@ -22,5 +22,11 @@ public class IOTestTest {
         ioTest.inputStream();
     }
 
+    @Test
+    public void readFile() throws Exception{
+        ioTest.readFile();
+    }
+
+
 
 }
