@@ -27,6 +27,13 @@ public class IOTestTest {
         ioTest.readFile();
     }
 
+    @Test
+    public void testLineIterator() throws Exception {
+        ioTest.testLineIterator();
+    }
 
-
+    @Test
+    public void getFreeSpace() throws Exception {
+        ioTest.getFreeSpace();
+    }
 }
